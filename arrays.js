@@ -15,5 +15,6 @@ function accessElementInArray(array, index){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  const array=
+  const array2 = array
+  return array
 }

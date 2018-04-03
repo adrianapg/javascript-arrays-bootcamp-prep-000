@@ -22,3 +22,13 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 function removeElementFromBeginningOfArray(array){
   return array.slice(1)
 }
+
+function addElementToEndOfArray(array, element){
+  modified_array=[...array, element]
+  return modified_array
+}
+
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array.unshift(element)
+  return array
+}
